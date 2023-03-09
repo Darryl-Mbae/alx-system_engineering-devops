@@ -1,26 +1,26 @@
-[0-current_working_directory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/2bf011d8e6954a8327fa0096bc982b73883c9759/0x00-shell_basics/0-current_working_directory) - ```pwd``` prints the absolute path name of the current working directory.
+[0-current_working_directory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/2bf011d8e6954a8327fa0096bc982b73883c9759/0x00-shell_basics/0-current_working_directory) - ```pwd```  prints the absolute path name of the current working directory.
 
-[1-listit](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/1-listit) - ```ls``` Displays the contents list of your current directory.
+[1-listit](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/1-listit) - ```ls```   Displays the contents list of your current directory.
 
-[2-bring_me_home](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/2-bring_me_home) - ```cd``` Writes a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
+[2-bring_me_home](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/2-bring_me_home) - ```cd```  Writes a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
 
-[3-listfiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/3-listfiles) - ```ls - l``` Displays current directory contents in a long format
+[3-listfiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/3-listfiles) - ```ls - l```  Displays current directory contents in a long format
 
-[4-listmorefiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/4-listmorefiles) - ```ls -la``` Displays current directory contents, including hidden files (starting with .). Use the long format.
+[4-listmorefiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/4-listmorefiles) - ```ls -la```  Displays current directory contents, including hidden files (starting with .). Use the long format.
 
-[5-listfilesdigitonly](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/5-listfilesdigitonly) - "ls -lna" Displays current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
+[5-listfilesdigitonly](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/5-listfilesdigitonly) - ```ls -lna```  Displays current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
 
-[6-firstdirectory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/6-firstdirectory) - "mkdir /tmp/6-firstdirectory" Creates a script that creates a directory named holberton in the /tmp/ directory.
+[6-firstdirectory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/6-firstdirectory) - ```mkdir /tmp/6-firstdirectory```  Creates a script that creates a directory named holberton in the /tmp/ directory.
 
-[7-movethatfile](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/7-movethatfile) - "mv /tmp/betty /tmp/my_first_directory/" Moves the file betty from /tmp/ to /tmp/my_first_directory
+[7-movethatfile](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/7-movethatfile) - ```mv /tmp/betty /tmp/my_first_directory/```  Moves the file betty from /tmp/ to /tmp/my_first_directory
 
-[8-firstdelete](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/8-firstdelete) - "rm /tmp/my_first_directory/betty" Deletes the file betty. The file betty is in /tmp/my_first_directory
+[8-firstdelete](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/8-firstdelete) - ```rm /tmp/my_first_directory/betty```  Deletes the file betty. The file betty is in /tmp/my_first_directory
 
-[9-firstdirdeletion](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/9-firstdirdeletion) - "rm -r /tmp/my_first_directory" Deletes the directory holberton that is in the /tmp directory.
+[9-firstdirdeletion](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/9-firstdirdeletion) - ```rm -r /tmp/my_first_directory```  Deletes the directory holberton that is in the /tmp directory.
 
-[10-back](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/10-back) - "cd -" Write a script that changes the working directory to the previous one.
+[10-back](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/10-back) - ```cd -```  Write a script that changes the working directory to the previous one.
 
-[11-lists](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/11-lists) - "ls -la . .. /boot" Writes a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+[11-lists](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/11-lists) - ```ls -la . .. /boot```  Writes a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
 [12-file_type](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/12-file_type) - "file /tmp/iamafile" Writes a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
