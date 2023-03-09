@@ -1,3 +1,5 @@
+Common Commands
+
 chmod - modify file access rights<br>
 su - temporarily become the superuser<br>
 sudo - temporarily become the superuser<br>
