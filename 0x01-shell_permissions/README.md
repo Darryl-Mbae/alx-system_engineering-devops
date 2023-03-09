@@ -76,3 +76,8 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 [10-mirror_permissions](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/a05ab4214a8bc5e4bb47ac17566ce3f7c18d81cc/0x01-shell_permissions/10-mirror_permissions) ```chmod --reference=olleh hello``` Copies the mode of file olleh to file hello.
 
 [11-](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/cfd60487b2a707198417f9a28b6c017c8900b2ef/0x01-shell_permissions/11-directories_permissions)```chmod -R +X .``` Add execute permission to all subdirectories of the current directory for the everyone. Regular files should not be changed.
+* The -R (or --recursive) option tells the chmod command to operate recursively on all files and directories in the specified directory and its subdirectories. This means that the permissions will be set not only on the specified directory but also on all files and subdirectories within it.
+
+[12-directory_permissions](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/87555ab7be348b93627b79b1c2f4026ab9628623/0x01-shell_permissions/12-directory_permissions)```mkdir -m 753 my_dir``` Create a directory called my_dir with permissions 751 in the working directory
+* We use the -m option with the mkdir command to set the file mode (i.e., permissions) of the newly created directory.
+* The -m option allows us to specify the permissions for the directory in a numerical format. 
