@@ -84,3 +84,10 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 * The -m option allows us to specify the permissions for the directory in a numerical format. 
 
 [13-change_group](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/71e989a29579ad4b727bd8cfc0d2b18e4361940c/0x01-shell_permissions/13-change_group) ```chgrp school hello``` Change gorup owner to school for the file hello
+
+[100-change_owner_and_group](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/d7ac114606a85b19a483ec512826fd8fc842a96d/0x01-shell_permissions/100-change_owner_and_group)```chown vincent:staff *``` Change owner to vincent and the group owner to staff for all files and directories in current directory.
+
+[101-symbolic_link_permissions](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/d7ac114606a85b19a483ec512826fd8fc842a96d/0x01-shell_permissions/101-symbolic_link_permissions) ```chown -h vincent:staff _hello``` Changes the owner and group owner of file _hello to vincent and staff respectively
+* The -h option is used with the chown command to change the owner and group owner of a symbolic link itself, rather than the file or directory that it points to.
+
+[102-if_only]()
