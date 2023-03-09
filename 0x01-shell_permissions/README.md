@@ -29,7 +29,7 @@ r-- = 100 in binary = 4
 
 ```
 
-``u+x Add execute permission for the owner.
+```u+x Add execute permission for the owner.
 u-x Remove execute permission from the owner.
 +x Add execute permission for the owner, group, and world. This is
 equivalent to a+x.
