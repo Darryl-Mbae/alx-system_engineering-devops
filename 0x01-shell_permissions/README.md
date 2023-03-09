@@ -42,4 +42,6 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 
 ```[me@linuxbox me]$ chgrp new_group some_file```
 
+# How to tackle the tasks
 
+https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/265fdab20605aa30ac0029ca29bdfaef28a1d17f/0x01-shell_permissions/0-iam_betty
