@@ -43,4 +43,4 @@ then type in the code below
 !:mime School
 ```
 exit vi 
-then type in the comman  "file -C -m school.mgc"
+then type in the command  "file -C -m school.mgc"
