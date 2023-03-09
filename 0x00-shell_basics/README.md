@@ -1,12 +1,12 @@
 [0-current_working_directory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/2bf011d8e6954a8327fa0096bc982b73883c9759/0x00-shell_basics/0-current_working_directory) - ```pwd``` prints the absolute path name of the current working directory.
 
-[1-listit](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/1-listit) - ```ls``` Display the contents list of your current directory.
+[1-listit](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/1-listit) - ```ls``` Displays the contents list of your current directory.
 
-[2-bring_me_home](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/2-bring_me_home) - "cd" Write a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
+[2-bring_me_home](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/2-bring_me_home) - ```cd``` Writes a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
 
-[3-listfiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/3-listfiles) - "ls - l" Display current directory contents in a long format
+[3-listfiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/3-listfiles) - ```ls - l``` Displays current directory contents in a long format
 
-[4-listmorefiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/4-listmorefiles) - "ls -la" Display current directory contents, including hidden files (starting with .). Use the long format.
+[4-listmorefiles](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/4-listmorefiles) - ```ls -la``` Displays current directory contents, including hidden files (starting with .). Use the long format.
 
 [5-listfilesdigitonly](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/5-listfilesdigitonly) - "ls -lna" Displays current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
 
