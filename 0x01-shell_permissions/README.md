@@ -44,5 +44,4 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 
 # How to tackle the tasks
 
-[0-iam_betty]https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/265fdab20605aa30ac0029ca29bdfaef28a1d17f/0x01-shell_permissions/0-iam_betty
-```su betty```  Script that changes your user ID to betty.
+0-iam_betty ```su betty```  Script that changes your user ID to betty.
