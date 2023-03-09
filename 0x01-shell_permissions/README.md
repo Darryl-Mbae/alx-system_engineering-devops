@@ -64,3 +64,5 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 [4-empty](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/69543d4d947a4b11c75e0c2209ce5bbacb69de5c/0x01-shell_permissions/4-empty) ```touch hello``` Create an empty file called hello
 
 [5-execute](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/9b8302d4b2e50ce20ae27f8898c38c5e2199eab9/0x01-shell_permissions/5-execute) ```chmod u+x hello```  Add execute permission to the owner of the file or alternatively ```chmod 700 hello```
+
+
