@@ -1,7 +1,7 @@
-chmod - modify file access rights
-su - temporarily become the superuser
-sudo - temporarily become the superuser
-chown - change file ownership
+chmod - modify file access rights<br>
+su - temporarily become the superuser<br>
+sudo - temporarily become the superuser<br>
+chown - change file ownership<br>
 chgrp - change a file's group ownership
 
 
