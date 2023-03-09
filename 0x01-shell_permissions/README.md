@@ -1,4 +1,4 @@
-# Common Commands
+## Common Commands
 
 chmod - modify file access rights<br>
 su - temporarily become the superuser<br>
@@ -11,7 +11,7 @@ chgrp - change a file's group ownership
 
 ![](http://linuxcommand.org/images/file_permissions.png)
 
-# chmod
+## chmod
 The chmod command is used to change the permissions of a file or directory.
 
 ```
@@ -32,6 +32,10 @@ For example, if we wanted to set some_file to have read and write permission for
 root@/alx-system_engineering-devops/0x01-shell_permissions# chmod 600 some_file
 
 ```
+## Changing File Ownership
+We can change the owner of a file by using the chown command. Here's an example: Suppose we wanted to change the owner of some_file from "me" to "you". We could:
+
+```[me@linuxbox me]$ sudo chown you some_file```
 
 
 
