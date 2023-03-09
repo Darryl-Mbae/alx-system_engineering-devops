@@ -28,6 +28,21 @@ r-- = 100 in binary = 4
 --x = 001 in binary = 1
 
 ```
+
+``u+x Add execute permission for the owner.
+u-x Remove execute permission from the owner.
++x Add execute permission for the owner, group, and world. This is
+equivalent to a+x.
+o-rw Remove the read and write permissions from anyone besides the
+owner and group owner.
+go=rw Set the group owner and anyone besides the owner to have read and
+write permission. If either the group owner or the world previously
+had execute permission, it is removed.
+u+x,go=rx Add execute permission for the owner and set the permissions for
+the group and others to read and execute. Multiple specifications
+may be separated by commas.
+```
+
 For example, if we wanted to set some_file to have read and write permission for the owner, but wanted to keep the file private from others, we would:
 ```
 root@/alx-system_engineering-devops/0x01-shell_permissions# chmod 600 some_file
