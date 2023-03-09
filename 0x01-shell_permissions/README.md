@@ -11,7 +11,7 @@ chgrp - change a file's group ownership
 
 ![](http://linuxcommand.org/images/file_permissions.png)
 
-chmod
+# chmod
 The chmod command is used to change the permissions of a file or directory.
 
 ```
