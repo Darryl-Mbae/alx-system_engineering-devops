@@ -37,5 +37,9 @@ We can change the owner of a file by using the chown command. Here's an example:
 
 ```[me@linuxbox me]$ sudo chown you some_file```
 
+## Changing Group Ownership
+The group ownership of a file or directory may be changed with chgrp. This command is used like this:
+
+```[me@linuxbox me]$ chgrp new_group some_file```
 
 
