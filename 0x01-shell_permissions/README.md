@@ -82,3 +82,5 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 [12-directory_permissions](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/87555ab7be348b93627b79b1c2f4026ab9628623/0x01-shell_permissions/12-directory_permissions)```mkdir -m 753 my_dir``` Create a directory called my_dir with permissions 751 in the working directory
 * We use the -m option with the mkdir command to set the file mode (i.e., permissions) of the newly created directory.
 * The -m option allows us to specify the permissions for the directory in a numerical format. 
+
+[13-change_group](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/71e989a29579ad4b727bd8cfc0d2b18e4361940c/0x01-shell_permissions/13-change_group) ```chgrp school hello``` Change gorup owner to school for the file hello
