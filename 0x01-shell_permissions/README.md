@@ -66,3 +66,5 @@ The group ownership of a file or directory may be changed with chgrp. This comma
 [5-execute](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/9b8302d4b2e50ce20ae27f8898c38c5e2199eab9/0x01-shell_permissions/5-execute) ```chmod u+x hello```  Add execute permission to the owner of the file or alternatively ```chmod 700 hello```
 
 [6-mutiple permission](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/d088c67183b7bd90d94f9e4d328d7004778f29a3/0x01-shell_permissions/6-multiple_permissions) ```chmod ug+x,o+r hello``` Add execute permission to user and group owner, and read permission to others for file hello
+
+[7-everybody](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/542223a5be42349723e5320bd17675a339531f0e/0x01-shell_permissions/7-everybody) ```chmod +x hello``` Add execution permission to all for file 
