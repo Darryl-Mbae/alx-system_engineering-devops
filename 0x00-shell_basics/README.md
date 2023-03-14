@@ -12,7 +12,7 @@
 
 [5-listfilesdigitonly](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/5-listfilesdigitonly) - ```ls -lna```  Displays current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
 
-[6-firstdirectory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/6-firstdirectory) - ```mkdir /tmp/6-firstdirectory```  Creates a script that creates a directory named holberton in the /tmp/ directory.
+[6-firstdirectory](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/6-firstdirectory) - ```mkdir /tmp/6-firstdirectory```  Creates a script that creates a directory named 6-firstdirectory in the /tmp/ directory.
 
 [7-movethatfile](https://github.com/Darryl-Mbae/alx-system_engineering-devops/blob/992434c9399499e96b07620ef6656b6841a68347/0x00-shell_basics/7-movethatfile) - ```mv /tmp/betty /tmp/my_first_directory/```  Moves the file betty from /tmp/ to /tmp/my_first_directory
 
