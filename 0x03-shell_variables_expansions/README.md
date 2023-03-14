@@ -8,4 +8,6 @@ Aliases are configured in the ~/.bashrc file in your Ubuntu home folder. These a
 ### Example of creating an alias
 ```alias c="clear"```
 
-* ```alias ls="rm *"``` Create a script that creates an alias. Name: ls Value: rm *
+* ```alias ls="rm *"``` Create a script that creates an alias.
+                                * Name: ls 
+                                * Value: rm *
