@@ -9,5 +9,5 @@ Aliases are configured in the ~/.bashrc file in your Ubuntu home folder. These a
 ```alias c="clear"```
 
 * ```alias ls="rm *"``` Create a script that creates an alias.
-                                * Name: ls 
-                                * Value: rm *
+ * Name: ls 
+ * Value: rm *
