@@ -10,5 +10,5 @@ Aliases are configured in the ~/.bashrc file in your Ubuntu home folder. These a
 
 * ```alias ls="rm *"``` Create a script that creates an alias.mName: ls Value: rm *
 
-* ```1-hello_you```  Create a script that prints hello user, where user is the current Linux user.
+* [1-hello_you]() ```echo hello $USER```  Create a script that prints hello user, where user is the current Linux user.
 * 
