@@ -63,9 +63,11 @@ To use the file program, we just type:
 
 ```file name_of_file```
 
+Using wildcards, it is possible to construct very sophisticated selection criteria for filenames. Here are some examples of patterns and what they match:
+
 
 Pattern	Matches
-| Code | What it does |
+| Patterns | Matches |
 | -- | -----|
 | *	| All filenames |
 | g*	| All filenames that begin with the character "g" |
@@ -75,6 +77,8 @@ Pattern	Matches
 | [[:upper:]]* | Any filename that begins with an uppercase letter. This is an example of a character class. |
 | BACKUP.[[:digit:]][[:digit:]]	| Another example of character classes. This pattern matches any filename that begins with the characters "BACKUP." followed by exactly two numerals. |
 | *[![:lower:]] 	| Any filename that does not end with a lowercase letter. |
+
+
 
 > Kindly to try Undertand the code rather than copy the codes
 
