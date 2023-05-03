@@ -1,17 +1,19 @@
 # Shell Basics
 Inside that directory, we can see its files and the pathway to its parent directory and the pathways to the subdirectories of the directory in which we are standing.
-
+## pwd
 The directory we are standing in is called the working directory. To see the name of the working directory, we use the pwd command.
 ```
 [me@linuxbox me]$ pwd
 /home/me
 ```
+## ls
 To list the files in the working directory, we use the ls command.
 ```
 [me@linuxbox me]$ ls
 Desktop    Downloads         foo.txt  Pictures  Templates
 Documents  examples.desktop  Music    Public    Videos
 ```
+## cd
 To change the working directory we use the cd command. To do this, we type cd followed by the pathname of the desired working directory.
 ```
 me@linuxbox me]$ cd /usr/bin
