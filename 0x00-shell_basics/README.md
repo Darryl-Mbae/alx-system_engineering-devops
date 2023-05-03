@@ -13,6 +13,11 @@ To list the files in the working directory, we use the ls command.
 Desktop    Downloads         foo.txt  Pictures  Templates
 Documents  examples.desktop  Music    Public    Videos
 ```
+| Command | Result |
+|------|------------|
+| ls /bin | List the files in the /bin directory (or any other directory we care to specify) |
+| ls -l | List the files in the working directory in long format |
+| ls -la | List all files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format |
 ## cd
 To change the working directory we use the cd command. To do this, we type cd followed by the pathname of the desired working directory.
 ```
