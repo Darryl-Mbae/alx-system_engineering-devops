@@ -52,6 +52,30 @@ me@linuxbox me]$ cd /usr/bin
 me@linuxbox bin]$ pwd
 /usr/bin
 ```
+
+## less
+less is a program that lets us view text files.
+
+## file
+As we wander around our Linux system, it is helpful to determine what kind of data a file contains before we try to view it. This is where the file command comes in. file will examine a file and tell us what kind of file it is.
+
+To use the file program, we just type:
+
+```file name_of_file```
+
+
+Pattern	Matches
+| Code | What it does |
+| -- | -----|
+| *	| All filenames |
+| g*	| All filenames that begin with the character "g" |
+| b*.txt	| All filenames that begin with the character "b" and end with the characters ".txt" |
+| Data???	| Any filename that begins with the characters "Data" followed by exactly 3 more characters |
+| [abc]*	| Any filename that begins with "a" or "b" or "c" followed by any other characters |
+| [[:upper:]]* | Any filename that begins with an uppercase letter. This is an example of a character class. |
+| BACKUP.[[:digit:]][[:digit:]]	| Another example of character classes. This pattern matches any filename that begins with the characters "BACKUP." followed by exactly two numerals. |
+| *[![:lower:]] 	| Any filename that does not end with a lowercase letter. |
+
 > Kindly to try Undertand the code rather than copy the codes
 
 
