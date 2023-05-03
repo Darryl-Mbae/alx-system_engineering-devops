@@ -1,4 +1,17 @@
 # Shell Basics
+Inside that directory, we can see its files and the pathway to its parent directory and the pathways to the subdirectories of the directory in which we are standing.
+
+The directory we are standing in is called the working directory. To see the name of the working directory, we use the pwd command.
+```
+[me@linuxbox me]$ pwd
+/home/me
+```
+To list the files in the working directory, we use the ls command.
+```
+[me@linuxbox me]$ ls
+Desktop    Downloads         foo.txt  Pictures  Templates
+Documents  examples.desktop  Music    Public    Videos
+```
 > Kindly to try Undertand the code rather than copy the codes
 
 
