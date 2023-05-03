@@ -52,17 +52,24 @@ me@linuxbox me]$ cd /usr/bin
 me@linuxbox bin]$ pwd
 /usr/bin
 ```
+## mv
+The mv command moves or renames files and directories depending on how it is used.
+| Command	| Results |
+| ----------------- | --------------------------------|
+| mv file1 file2	| If file2 does not exist, then file1 is renamed file2. If file2 exists, its contents are silently replaced with the contents of file1. |
+| mv -i file1 file2 |	Like above however, since the "-i" (interactive) option is specified, if file2 exists, the user is prompted before it is overwritten with the contents of file1. |
+| mv file1 file2 dir1	| The files file1 and file2 are moved to directory dir1. If dir1 does not exist, mv will exit with an error. |
+| mv dir1 dir2	| If dir2 does not exist, then dir1 is renamed dir2. If dir2 exists, the directory dir1 is moved within directory dir2. |
 
-## less
-less is a program that lets us view text files.
-
-## file
-As we wander around our Linux system, it is helpful to determine what kind of data a file contains before we try to view it. This is where the file command comes in. file will examine a file and tell us what kind of file it is.
-
-To use the file program, we just type:
-
-```file name_of_file```
-
+## rm
+The rm command removes (deletes) files and directories.
+```[me@linuxbox me]$ rm file... ```
+Using the recursive option (-r), rm can also be used to delete directories:
+```[me@linuxbox me]$ rm -r directory...```
+## mkdir
+The mkdir command is used to create directories. To use it, you simply type:
+```[me@linuxbox me]$ mkdir directory...```
+## Wildcards
 Using wildcards, it is possible to construct very sophisticated selection criteria for filenames. Here are some examples of patterns and what they match:
 
 
@@ -78,6 +85,15 @@ Pattern	Matches
 | BACKUP.[[:digit:]][[:digit:]]	| Another example of character classes. This pattern matches any filename that begins with the characters "BACKUP." followed by exactly two numerals. |
 | *[![:lower:]] 	| Any filename that does not end with a lowercase letter. |
 
+## less
+less is a program that lets us view text files.
+
+## file
+As we wander around our Linux system, it is helpful to determine what kind of data a file contains before we try to view it. This is where the file command comes in. file will examine a file and tell us what kind of file it is.
+
+To use the file program, we just type:
+
+```file name_of_file```
 
 
 > Kindly to try Undertand the code rather than copy the codes
