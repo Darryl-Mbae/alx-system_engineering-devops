@@ -22,14 +22,13 @@ Documents  examples.desktop  Music    Public    Videos
 A Closer Look at Long Format
 If we use the -l option with ls, you will get a file listing that contains a wealth of information about the files being listed. Here's an example:
 
-
+```
 -rw-------   1 me       me            576 Apr 17  2019 weather.txt
 drwxr-xr-x   6 me       me           1024 Oct  9  2019 web_page
 -rw-rw-r--   1 me       me         276480 Feb 11 20:41 web_site.tar
 -rw-------   1 me       me           5743 Dec 16  2018 xmas_file.txt
+```
 
-----------     -------  -------  -------- ------------ -------------
-    |             |       
 ## cd
 To change the working directory we use the cd command. To do this, we type cd followed by the pathname of the desired working directory.
 ```
