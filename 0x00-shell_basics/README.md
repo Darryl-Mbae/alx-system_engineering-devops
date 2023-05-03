@@ -98,6 +98,7 @@ To use the file program, we just type:
 ## man
 Most executable programs intended for command line use provide a formal piece of documentation called a manual or man page. A special paging program called man is used to view them. It is used like this:
 ```man program```
+[Read more on man](http://linuxcommand.org/lc3_man_pages/man1.html)
 
 ## Shebang (Unix) #!
 In computing, a shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script. It is also called sharp-exclamation, sha-bang,[1][2] hashbang,[3][4] pound-bang,[5][6] or hash-pling.[7]
