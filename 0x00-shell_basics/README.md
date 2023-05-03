@@ -12,6 +12,12 @@ To list the files in the working directory, we use the ls command.
 Desktop    Downloads         foo.txt  Pictures  Templates
 Documents  examples.desktop  Music    Public    Videos
 ```
+To change the working directory we use the cd command. To do this, we type cd followed by the pathname of the desired working directory.
+```
+me@linuxbox me]$ cd /usr/bin
+me@linuxbox bin]$ pwd
+/usr/bin
+```
 > Kindly to try Undertand the code rather than copy the codes
 
 
